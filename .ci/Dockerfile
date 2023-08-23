@@ -1,4 +1,8 @@
 FROM google/cloud-sdk
 
 RUN apt-get update && \
-    apt-get install -y -q gettext google-cloud-sdk-gke-gcloud-auth-plugin
+    apt-get install -y -q gettext
+
+RUN gcloud components install gke-gcloud-auth-plugin
+RUN gcloud components install kubectl
+RUN gcloud components install beta
