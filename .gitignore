@@ -1,0 +1,34 @@
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de compilação
+build/
+dist/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Arquivos de dependências Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos gerados por IDEs e editores de texto
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos específicos do Docker
+.DS_Store
+docker-compose.yml
+Dockerfile.*
+docker-compose.override.yml
+
+# Arquivos específicos do ambiente virtual Python (por exemplo, virtualenv)
+venv/
+env/
+*.env
